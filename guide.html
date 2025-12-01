@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>地图</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./rice.svg" />
+    <link
+      rel="preload"
+      href="./font/ShangguSerifSC/ShangguSerifSC-Bold.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./font/ShangguSerifSC/ShangguSerifSC-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./font/JudouSans-TTF-Hans/JudouSansHans-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./font/JudouSans-TTF-Hans/JudouSansHans-Bold.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./font/JudouSans-TTF-Hans/JudouSansHans-Italic.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./favicon.svg"
+      as="image"
+      type="image/svg+xml"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./favicon.ico"
+      as="image"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./img/icon.png"
+      as="image"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./img/guide.png"
+      as="image"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./img/map.png"
+      as="image"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="main-content">
+      <header class="topbar">
+        <div class="topbar-container">
+          <div class="topbar-left">
+            <a href="#"
+              ><img
+                class="topbar-logo"
+                src="./img/icon.png"
+                alt="海大食客小站"
+                width="55"
+                height="55"
+              />
+              <span class="topbar-title">海大食客小站</span></a
+            >
+          </div>
+          <nav class="topbar-nav">
+            <a href="./index.html">首页</a>
+            <a href="./menu.html">菜单</a>
+            <a href="./about.html">关于</a>
+          </nav>
+        </div>
+      </header>
+      <div class="image-main-7">
+        <div class="headicon">🗺️</div>
+      </div>
+      <div class="ttl">点击前往对应食堂喵~</div>
+      <div class="p-content" style="width: 1000px; height: 777px; margin: 32px">
+        <img src="./img/map.png" alt="地图" usemap="#map" class="p-img" />
+        <map name="map">
+          <area
+            shape="rect"
+            coords="355,220,420,280"
+            href="./hx.html"
+            alt="海馨楼"
+          />
+          <area
+            shape="circle"
+            coords="324,91,16"
+            href="./hl.html"
+            alt="海联楼"
+          />
+          <area
+            shape="circle"
+            coords="542,395,17"
+            href="./hq.html"
+            alt="海琴楼"
+          />
+        </map>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-txt">© 2025 海大食客小站. All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>
